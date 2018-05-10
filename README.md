@@ -1,4 +1,4 @@
-StatsD + Graphite + Grafana 4 + Kamon Dashboards
+StatsD + Graphite + Grafana 5
 ---------------------------------------------
 
 This image contains a sensible default configuration of StatsD, Graphite and Grafana, and comes bundled with a example
@@ -8,7 +8,7 @@ for using this image:
 
 ### Using the Docker Index ###
 
-This image is published under [Kamon's repository on the Docker Hub](https://hub.docker.com/u/kamon/) and all you
+This image is published under [Sassoft repository on the Docker Hub](https://hub.docker.com/u/sassoftinc/) and all you
 need as a prerequisite is having `docker`, `docker-compose`, and `make` installed on your machine. The container exposes the following ports:
 
 - `80`: the Grafana web interface.
@@ -71,5 +71,4 @@ We hope that you have a lot of fun with this image and that it serves it's
 purpose of making your life easier. This should give you an idea of how the dashboard looks like when receiving data
 from one of our toy applications:
 
-![Kamon Dashboard](http://kamon.io/assets/img/kamon-statsd-grafana.png)
 ![System Metrics Dashboard](http://kamon.io/assets/img/kamon-system-metrics.png)
