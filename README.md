@@ -1,6 +1,8 @@
 StatsD + Graphite + Grafana 5
 ---------------------------------------------
 
+[![Docker Build Status](https://img.shields.io/docker/build/jrottenberg/ffmpeg.svg)](https://hub.docker.com/r/sassoftinc/grafana_graphite/)
+
 This image contains a sensible default configuration of StatsD, Graphite and Grafana, and comes bundled with a example
 dashboard that gives you the basic metrics currently collected by Kamon for both Actors and Traces. There are two ways
 for using this image:
